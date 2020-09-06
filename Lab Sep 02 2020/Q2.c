@@ -1,0 +1,90 @@
+/*
+*Name = Rishabh
+*Reg NO. = 201800631
+*Dept = IT
+*Lab Date = 2 Sep 2020
+*
+*AIM : Create a linked list  with header node. 
+*      Display the elements of the linked list.
+*      (The linked list must contain five nodes).
+*/
+
+#include <malloc.h> 
+#include <stdio.h> 
+  
+// Structure of the list 
+struct link { 
+    int info; 
+    struct link* next; 
+}; 
+  
+// Empty List 
+struct link* start = NULL; 
+  
+// Function to create a header linked list 
+struct link* create_header_list(int data) 
+{ 
+  
+    // Create a new node 
+    struct link *new_node, *node; 
+    new_node = (struct link*) 
+        malloc(sizeof(struct link)); 
+    new_node->info = data; 
+    new_node->next = NULL; 
+  
+    // If it is the first node 
+    if (start == NULL) { 
+  
+        // Initialize the start 
+        start = (struct link*) 
+            malloc(sizeof(struct link)); 
+        start->next = new_node; 
+    } 
+    else { 
+  
+        // Insert the node in the end 
+        node = start; 
+        while (node->next != NULL) { 
+            node = node->next; 
+        } 
+        node->next = new_node; 
+    } 
+    return start; 
+} 
+  
+// Function to display the 
+// header linked list 
+struct link* display() 
+{ 
+    struct link* node; 
+    node = start; 
+    node = node->next; 
+    while (node != NULL) { 
+        printf("%d ", node->info); 
+        node = node->next; 
+    } 
+    printf("\n"); 
+    return start; 
+} 
+  
+// Driver code 
+void main() 
+{ 
+   int n; 
+   printf("Enter no. of nodes : ");
+   scanf("%d",&n); 
+   
+
+   printf("Enter data in %d blocks : \n",n);
+
+   int i = 0;
+   int val;
+    while(i < n){
+        scanf("%d",&val);
+        create_header_list(val);
+        i++;
+    }
+    printf("You have entered : \n");
+    display();
+    
+} 

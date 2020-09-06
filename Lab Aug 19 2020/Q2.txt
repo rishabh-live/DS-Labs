@@ -1,0 +1,4 @@
+Q2
+        A)the minimum number of comparisons required tosearch anelement using LinearSearch is 1
+        B)the maximum number of comparisons required tosearch anelement using LinearSearch is the equal to the size of the array i.e. 10
+        C)no, it is not possible to search for an element on the given array elements using Binary search because the array is not sorted 

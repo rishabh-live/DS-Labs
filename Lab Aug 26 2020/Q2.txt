@@ -1,0 +1,17 @@
+______________ADVANTAGES OF USING LINKED LIST_________________
+
+
+Dynamic Data Structure
+
+	Linked list is a dynamic data structure so it can grow and shrink at runtime by allocating and deallocating memory. So there is no need to give initial size of the linked list.
+
+Insertion and Deletion
+
+	Unlike array here we don’t have to shift elements after insertion or deletion of the element. In linked list we just have to update the address of next pointer of a node.
+
+No Memory Wastage
+
+        As size of linked list can increase or decrease at run time so there is no memory wastage. In array there is lot of memory wastage, like if we declare an array of size 10 and store only 6 
+        elements in it then space of 4 elements are wasted. There is no such issue in linked list as memory is allocated only and when required.
+
+

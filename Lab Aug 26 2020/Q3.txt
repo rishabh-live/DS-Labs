@@ -1,0 +1,7 @@
+___What data type will you use for the elements in a linked list ?_____
+
+
+
+In linked list, we dont have pointer data type, that links to address of the next node which may or may not contain same data type.
+
+In Linked List, we just need valid pointers.   
