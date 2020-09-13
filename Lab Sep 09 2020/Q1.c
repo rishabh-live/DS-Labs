@@ -87,4 +87,5 @@ void main()
     sortedInsert(&head, new_node); 
     printf("\n Created Linked List\n"); 
     printList(head); 
+    printf("\n");
 } 
