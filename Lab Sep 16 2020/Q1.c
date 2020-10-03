@@ -1,3 +1,14 @@
+/*
+*Name = Rishabh
+*Reg No = 201800631
+*Dept = IT
+*Lab Date = 16 Sep 2020
+*Lab Work : 6
+*
+*AIM :  C program to delete  the first and the last node of a singly linked list
+*/
+
+
 #include <stdio.h>
 #include <stdlib.h>
 
