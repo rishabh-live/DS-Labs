@@ -95,7 +95,7 @@ int main(void)
     push(&top, 10);
 	printf("Top element is %d\n", peek(top));
 	
-	push(&top, 5);
+	push(&top, 1);
 	printf("Top element is %d\n", peek(top));
     
 	pop(&top);
