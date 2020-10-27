@@ -1,3 +1,15 @@
+/*
+*Name = Rishabh
+*Reg No = 201800631
+*Dept = IT
+*Lab Date = 28 Sep 2020
+*Lab Work : 9
+*
+*AIM :  C program to Push, Pop and Display Stack
+*/
+
+
+
 #include <stdio.h>
 #include <stdlib.h>
 
