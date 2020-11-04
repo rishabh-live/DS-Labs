@@ -1,3 +1,13 @@
+/*
+*Name = Rishabh
+*Reg No = 201800631
+*Dept = IT
+*Lab Date = 4 Nov 2020
+*Lab Work : 12
+*
+*AIM :  Implementation of Circular Queue
+*/
+
 #include <stdio.h>
 #define MAX 5
 int cqueue_arr[MAX];
